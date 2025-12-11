@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+Data/JBurke ELT Test.csv
+Data/JBurke ETL 25-12-11.csv
+Data/JBurke ETL.csv
+Data/JBurke Test.csv
+Data/JBurke.csv
+Data/RPotts ETL 25-12-11.csv
+Data/RPotts ETL.csv
+Data/RPotts.csv

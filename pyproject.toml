@@ -1,0 +1,39 @@
+    # pyproject.toml
+    [build-system]
+    requires = ["setuptools>=61.0"]
+    build-backend = "setuptools.build_meta"
+
+    [project]
+    name = "ComplianceETL"
+    version = "0.1.0"
+    description = "A Python script that extracts, transforms, and outputs a CSV file related to the 2025 Compliance Training progress report"
+    readme = "README.md" # Optional: if you have a README file
+    requires-python = ">=3.7"
+    license = { file = "LICENSE" } # Optional: if you have a LICENSE file
+    authors = [
+      { name = "Philip Chu", email = "phchu@redhat.com" },
+    ]
+    keywords = ["ETL", "python"]
+    classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ]
+
+    [project.urls]
+    "Homepage" = "https://github.com/DragonHero1157/compethicsrpt"
+    "Bug Tracker" = "https://github.com/DragonHero1157/compethicsrpt/issues"
+
+    [tool.setuptools.packages]
+    find = {} # Automatically discover packages in the current directory
+
+    [tool.pytest.ini_options]
+    minversion = "8.0"
+   # addopts = "-ra -q"
+    testpaths = [
+        "Tests",
+    ]
+    markers = [
+        "ui: Marker for UI tests",
+        "api: Marker for API tests",
+    ]
