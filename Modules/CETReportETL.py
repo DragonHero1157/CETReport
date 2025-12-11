@@ -8,7 +8,7 @@
 """
 import sys
 from Objects import CommandLine
-from Modules import GlobalVars, ExtractData, ConsolidateData, TransformData, LoadData
+from Modules import ExtractData, ConsolidateData, TransformData, LoadData
 
 # -------------------------------------------------------------------------------------       
 # ------------------------------------- Main() ----------------------------------------
