@@ -5,7 +5,7 @@
 
     [project]
     name = "CETReportETL"
-    version = "0.1.0"
+    version = "1.0.0"
     description = "A Python script that extracts, transforms, and outputs a CSV file related to the 2025 Compliance and Ethics Training (CET) progress report"
     readme = "README.md" # Optional: if you have a README file
     requires-python = ">=3.7"
