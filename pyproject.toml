@@ -4,9 +4,9 @@
     build-backend = "setuptools.build_meta"
 
     [project]
-    name = "ComplianceETL"
+    name = "CETReportETL"
     version = "0.1.0"
-    description = "A Python script that extracts, transforms, and outputs a CSV file related to the 2025 Compliance Training progress report"
+    description = "A Python script that extracts, transforms, and outputs a CSV file related to the 2025 Compliance and Ethics Training (CET) progress report"
     readme = "README.md" # Optional: if you have a README file
     requires-python = ">=3.7"
     license = { file = "LICENSE" } # Optional: if you have a LICENSE file
@@ -21,8 +21,8 @@
     ]
 
     [project.urls]
-    "Homepage" = "https://github.com/DragonHero1157/compethicsrpt"
-    "Bug Tracker" = "https://github.com/DragonHero1157/compethicsrpt/issues"
+    "Homepage" = "https://github.com/DragonHero1157/CETReportETL"
+    "Bug Tracker" = "https://github.com/DragonHero1157/CETReportETL/issues"
 
     [tool.setuptools.packages]
     find = {} # Automatically discover packages in the current directory
